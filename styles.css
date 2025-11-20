@@ -1,0 +1,30 @@
+html{
+  background-color: rgb(226, 63, 87);
+}
+
+a{
+  color:rgb(44, 212, 246);
+}
+
+header {
+  height: 3in;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1{
+  margin-top: 0;
+  color:navy;
+  transition: rotate 0.7s ease-in-out, font-size-adjust 1s ease-in-out;
+  transform-origin: center;
+  text-align: center;
+}
+
+header:hover h1,h1:hover{
+  rotate: 360deg;
+  font-size: 75px;
+
+}
