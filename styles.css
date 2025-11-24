@@ -1,5 +1,6 @@
 html{
   background-color: rgb(226, 63, 87);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 a{
@@ -27,4 +28,33 @@ header:hover h1,h1:hover{
   rotate: 360deg;
   font-size: 75px;
 
+}
+
+p{
+  font-size: 25px;
+  color: black;
+}
+
+button{
+  font-size: 18px;
+  background-color: rgb(245, 218, 203);
+  border: none;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(255, 152, 9);
+  border: black 1px solid;
+}
+
+section {
+  opacity: 0;
+  height: 0;
+}
+
+section.active {
+  opacity: 1;
+  height: auto;
+  transition: opacity 1s ease-in-out;
 }
