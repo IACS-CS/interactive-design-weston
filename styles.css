@@ -58,3 +58,10 @@ section.active {
   height: auto;
   transition: opacity 1s ease-in-out;
 }
+
+.end-text {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-shadow: darkblue 2px 2px 4px;
+  text-align: center;
+}
