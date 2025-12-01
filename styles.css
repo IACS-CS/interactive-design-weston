@@ -31,7 +31,7 @@ header:hover h1,h1:hover{
 }
 
 p{
-  font-size: 25px;
+  font-size: 70px;
   color: rgb(0, 0, 0);
   font-family: fantasy;
   text-align: center;
@@ -45,7 +45,7 @@ div{
 }
 
 button{
-  font-size: 18px;
+  font-size: 32px;
   background-color: rgb(245, 218, 203);
   border: none;
   padding: 3px 8px;
