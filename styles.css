@@ -1,5 +1,6 @@
 html{
-  background-color: rgb(226, 63, 87);
+  background-image: url(galaxy.png);
+  background-color: rgb(35, 180, 247);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -18,7 +19,7 @@ header {
 
 h1{
   margin-top: 0;
-  color:navy;
+  color:rgb(162, 13, 242);
   transition: rotate 0.7s ease-in-out, font-size-adjust 1s ease-in-out;
   transform-origin: center;
   text-align: center;
@@ -32,7 +33,7 @@ header:hover h1,h1:hover{
 
 p{
   font-size: 70px;
-  color: rgb(0, 0, 0);
+  color: rgb(243, 4, 4);
   font-family: fantasy;
   text-align: center;
 }
@@ -67,11 +68,13 @@ button:hover{
 section {
   opacity: 0;
   height: 0;
+  overflow: hidden;
 }
 
 section.active {
   opacity: 1;
   height: auto;
+  display: block;
   transition: opacity 1s
 }
 
@@ -80,4 +83,7 @@ section.active {
   color: rgb(0, 0, 0);
   text-shadow: darkblue 2px 2px 4px;
   text-align: center;
+}
+.start-text{
+  color: rgb(45, 186, 247);
 }
