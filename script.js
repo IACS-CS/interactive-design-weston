@@ -44,3 +44,8 @@ document
     parentSection.nextElementSibling.classList.add("active");
     parentSection.classList.remove("active");
   });
+
+  document.querySelector("#retry-button").addEventListener("click", function (event) {
+    // On retry, we simply reload the page to restart the quiz.
+    location.reload();
+  });

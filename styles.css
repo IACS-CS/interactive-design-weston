@@ -40,7 +40,7 @@ p{
 
 div{
   font-size: 35px;
-  color: rgb(0, 0, 0);
+  color: rgb(231, 29, 29);
   text-align: center;
   margin-bottom: 80px;
 }
@@ -62,7 +62,7 @@ button{
 
 button:hover{
   background-color: rgb(255, 157, 0);
-  border: black 1px solid;
+  border: rgb(0, 0, 0) 1px solid;
 }
 
 section {
@@ -80,10 +80,16 @@ section.active {
 
 .end-text {
   font-size: 50px;
-  color: rgb(0, 0, 0);
+  color: rgb(45, 186, 247);
   text-shadow: darkblue 2px 2px 4px;
   text-align: center;
 }
 .start-text{
   color: rgb(45, 186, 247);
+}
+
+.citations{
+  font-size: 25px;
+  color: rgb(45, 186, 247);
+  text-shadow: rgb(255, 255, 255) 1px 1px 2px;
 }
