@@ -46,6 +46,26 @@ document
   });
 
   document.querySelector("#retry-button").addEventListener("click", function (event) {
-    // On retry, we simply reload the page to restart the quiz.
-    location.reload();
+   location.reload();
   });
+
+  document
+    .querySelector(".wrong-option-1")
+    .addEventListener("click", function (event) {
+      // On retry, we simply reload the page to restart the quiz.
+      location.reload();
+    }); 
+
+  document
+    .querySelector(".wrong-option-2")
+    .addEventListener("click", function (event) {
+      location.reload();
+    });
+
+  document
+    .querySelector(".wrong-option-3")
+    .addEventListener("click", function (event) {
+      location.reload();
+    });
+
+  
