@@ -1,6 +1,6 @@
 console.log("Hello, Interactive Graphic Design!");
 // This is the main JavaScript file for the Interactive Graphic Design project.
-for (let b of document.querySelectorAll(".correct-option")) {
+for (let b of document.querySelectorAll(".wrong-option-1")) {
   b.addEventListener(
     // when they click the start button
     "click",
@@ -17,7 +17,7 @@ for (let b of document.querySelectorAll(".correct-option")) {
       // Create a new Audio object that points to the audio file.
       // We create it here inside the click handler so each click creates a fresh sound instance.
       // This helps the sound play even if the previous instance is still playing.
-      let clickSound = new Audio("audio.wav");
+      let clickSound = new Audio("stupid.m4a");
 
       // Hint to browser to preload the audio so it's ready to play quickly.
       clickSound.preload = "auto";

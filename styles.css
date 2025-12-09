@@ -50,7 +50,7 @@ div{
 
 button{
   font-size: 32px;
-  background-color: rgb(245, 218, 203);
+  background-color: rgb(189, 144, 217);
   border: none;
   padding: 3px 8px;
   cursor: pointer;
@@ -64,7 +64,7 @@ button{
 }
 
 button:hover{
-  background-color: rgb(255, 157, 0);
+  background-color: rgb(178, 105, 223);
   border: rgb(0, 0, 0) 1px solid;
 }
 
