@@ -19,7 +19,7 @@ header {
 
 h1.ready{
   margin-top: 0;
-  color:rgb(162, 13, 242);
+  color:rgb(238, 200, 239);
   transition: rotate 0.7s ease-in-out, font-size-adjust 1s ease-in-out;
   transform-origin: center;
   text-align: center;

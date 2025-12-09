@@ -1,6 +1,6 @@
 console.log("Hello, Interactive Graphic Design!");
 // This is the main JavaScript file for the Interactive Graphic Design project.
-for (let b of document.querySelectorAll(".wrong-option-1")) {
+for (let b of document.querySelectorAll(".correct-option")) {
   b.addEventListener(
     // when they click the start button
     "click",
